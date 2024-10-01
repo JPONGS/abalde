@@ -1,10 +1,9 @@
-    // Typewriter effect script
-    const textArray = ["HELLO I AM AN IT STUDENT", "LET'S CONNECT!"];
+    const textArray = ["HELLO I AM AN IT STUDENT", "TA BUNAL!"];
     let textIndex = 0;
     let charIndex = 0;
-    const typingDelay = 150; // Delay between each character
-    const erasingDelay = 100; // Delay for erasing
-    const newTextDelay = 2000; // Delay before starting to type a new text
+    const typingDelay = 150; 
+    const erasingDelay = 100; 
+    const newTextDelay = 2000; 
 
     function type() {
       if (charIndex < textArray[textIndex].length) {
